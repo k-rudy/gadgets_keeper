@@ -35,6 +35,9 @@ group :development, :test do
   # Testing framework
   gem 'rspec-rails', '~> 2.0'
 
+  # Simplifies testing common rails functionality like entity relations and validations
+  gem "shoulda-matchers"
+
   # Test factories lib
   gem 'factory_girl'
 

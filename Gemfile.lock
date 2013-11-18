@@ -115,6 +115,8 @@ GEM
       rspec-core (~> 2.14.0)
       rspec-expectations (~> 2.14.0)
       rspec-mocks (~> 2.14.0)
+    shoulda-matchers (2.4.0)
+      activesupport (>= 3.0.0)
     slop (3.4.7)
     sorcery (0.8.4)
       bcrypt-ruby (~> 3.0.0)
@@ -159,6 +161,7 @@ DEPENDENCIES
   pry
   rails (= 4.0.1)
   rspec-rails (~> 2.0)
+  shoulda-matchers
   sorcery
   therubyracer
   turbolinks
