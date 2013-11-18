@@ -16,7 +16,7 @@ describe "UserSessions" do
   end
 
   describe "POST /logout" do
-    it "should successfully process logout requests and redirect to dashboard" do
+    it "should successfully process logout requests and redirect to " do
       post logout_path
       response.status.should be(302)
     end
