@@ -1,0 +1,11 @@
+<%= form_tag user_sessions_path, method: :post, class: 'form-signin mtl' do %>
+
+  <h2 class="form-signin-heading">Please sign in</h2>
+
+  <%= text_field_tag :email, params[:username], placeholder: 'Username', class: 'form-control mvs' %>
+
+  <%= password_field_tag :password, params[:password], placeholder: 'Password', class: 'form-control mvs' %>
+
+  <%= submit_tag 'Log In', class: 'btn btn-lg btn-primary btn-block mtm' %>
+
+<% end %>
