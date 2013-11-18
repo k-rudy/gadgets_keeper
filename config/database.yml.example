@@ -1,0 +1,16 @@
+development: &default
+  adapter: mysql2
+  encoding: utf8
+  database: curate_dev
+  username: USERNAME
+  password: PASSWORD
+  host: 127.0.0.1
+  port: 3306
+
+test:
+  <<: *default
+  database: curate_test
+
+production:
+  <<: *default
+  database: curate_prod
