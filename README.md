@@ -1,4 +1,6 @@
-#CurateZilla
+#Gadgets Keeper
+
+Simple rails demo application for managing gadgets. Uses Ruby 2.0.0 and Rails 4.0.1
 
 ##Environment setup:
 
